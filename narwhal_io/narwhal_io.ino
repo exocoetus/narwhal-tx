@@ -7,6 +7,8 @@ const int thumbstick_sw_pin = D2; // digital pin on thumbstick button
 const float indexstick_x_pin = A2; // analog pin on indexstick X
 const float indexstick_y_pin = A3; // analog pin on indexstick Y
 const int indexstick_sw_pin = D3; // digital pin on indexstick button
+const int switch_l = D4; // left switch
+const int switch_r = D5; // right switch
 
 // Calibration centers
 float thumbstick_x_ctr;
